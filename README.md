@@ -37,19 +37,19 @@ Destaque técnico:
 Como executar o projeto
   1.) Clone o repositório:
 
-  git clone https://github.com/seu-usuario/analisador-documentos-langchain
+        git clone https://github.com/seu-usuario/analisador-documentos-langchain
 
   2.) Instale as dependências:
 
-  pip install langchain langchain-groq python-dotenv
+        pip install langchain langchain-groq python-dotenv
 
   3.) Configure o arquivo .env:
 
-  GROQ_API_KEY=sua_chave_aqui
+        GROQ_API_KEY=sua_chave_aqui
 
   4.) Execute o script:
 
-  python analisador_documento_ia.py
+        python analisador_documento_ia.py
 
 Alterando o texto analisado
 - Para analisar outro conteúdo, basta editar o arquivo dados.txt.
